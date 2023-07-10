@@ -1,11 +1,10 @@
 # Hướng dẫn sử dụng board STEM
-# Tổng quan
 
 ## Nguồn điện
-- Đầu vào: 12V DC 
+- Đầu vào:7-40VDC 
 - Nguồn ra: 
-    + M1, M2: 12V
-    + Servor x4: 5V DC
+    + M1, M2: 7-40VDC (tùy thuộc vào loại động cơ sử dụng)
+    + Servor x4: 5VDC
     + Cảm biến siêu âm:           5VDC  HC-SR04  link mua hàng: https://www.thegioiic.com/hc-sr04-cam-bien-sieu-am
     + Cảm biến dò line:           5VDC  LM393    link mua hàng: https://nshopvn.com/product/cam-bien-vat-can-hong-ngoai/
     + Cảm biến báo cháy:          5VDC  LM393    link mua hàng: https://www.thegioiic.com/lm393-mach-cam-bien-hong-ngoai-phat-hien-lua-3-chan

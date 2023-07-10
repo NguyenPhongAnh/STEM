@@ -20,22 +20,7 @@ Git này hướng dẫn sử dụng board STEM
 |L293D                 |     5V      |    GND   |OUT1,OUT2,OUT3,OUT4|D25, D26, D33, D32|      
 |Cảm biến ANALOG       |     5V      |    GND   |     CB1,CB2,A0    |    VP,VN,D34     |         
 |Cảm biến DIGITAL      |     5V      |    GND   | CB3,D0,TRIG,ECHO  |  D15,D35,D4,D2   | 
-|Buzzer                |     5V      |    GND   |         X         |TX0|
-|Button                |     5V      |    GND   |   X   |D21|
-|Encoder               |     5V      |    GND   |   ChA,ChB| D23,D22|
+|Buzzer                |     5V      |    GND   |         X         |       TX0        |
+|Button                |     5V      |    GND   |         X         |       D21        |
+|Encoder               |     5V      |    GND   |      ChA,ChB      |     D23,D22      |
       
-
-
-## Các chân tín hiệu của cổng Servo_X
-|Tên cổng   |Nguồn dương|Nguồn âm |Chân tín hiệu Servo |Chân tích hợp 1|Chân tích hợp 2|
-|-----------|-----------|----------|-------------------|---------------|---------------|
-|Servo 1    |5V         |GND       |SV1                |D14            |D33            |
-|Servo 2    |5V         |GND       |SV2                |D17            |D36            |
-|Servo 3    |5V         |GND       |SV3                |D16            |D39            |
-|Servo 4    |5V         |GND       |SV4                |D12            |D32            |
-|Servo 5    |5V         |GND       |SV5                |D25            |D35            |
-|Servo 6    |5V         |GND       |SV6                |D13            |D34            |
-
-## Các chân tín hiệu của I2C
-|I2C     |5V      |GND    |SCL_D22     |SDA_D21    |
-|--------|--------|-------|------------|-----------|

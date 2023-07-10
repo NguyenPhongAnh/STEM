@@ -1,7 +1,7 @@
 # Hướng dẫn sử dụng board STEM
 
 ## Nguồn điện
-- Đầu vào:7-40VDC 
+- Đầu vào: 7-40VDC 
 - Nguồn ra: 
     + M1, M2: 7-40VDC (tùy thuộc vào loại động cơ sử dụng)
     + Servor x4: 5VDC

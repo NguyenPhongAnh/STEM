@@ -14,15 +14,17 @@ Git này hướng dẫn sử dụng board STEM
     + Cảm biến nhiệt độ và độ ẩm: 5V    DHT11    link mua hàng: https://www.thegioiic.com/dht11-mach-cam-bien-nhiet-do-va-do-am-den
 ## Chân tín hiệu điều khiển của thiết bị tích hợp trên board.
 
-|Tên thiết bị          |Nguồn dương  | Nguồn âm |  Chân 1 |  Chân 2 |  Chân 3 |  Chân 4  |  Chân 5 |  Chân 6 |  
-|-----------           |-------------|----------|---------|---------|---------|----------|---------|---------| 
-|Led RGB               |     5V      |    GND   |   D25   |         |         |          |         |         |                      
-|Buzzer                |     5V      |    GND   |   D26   |         |         |          |         |         |         
-|Button                |     5V      |    GND   |   D19   |
-|MPU                   |     5V      |    GND   |   SDA   |   SCL   |    D32  |          |         |         |       
-|Cảm biến siêu âm      |     5V      |    GND   |   D25   |   D13   |   D16   |   D17    |         |         |         
-|Cảm biến dò line      |     5V      |    GND   |   D36   |   D39   |   D34   |   D35    |         |         |        
-|L293D                 |     5V      |    GND   | IN1_D2  |  IN2_D5 | IN3_D27 |  IN4_D4  | EN1_D23 | EN2_D15 | 
+|Tên thiết bị          |Nguồn dương  | Nguồn âm |  Chân trên Board  |  Chân trên ESP   |
+|-----------           |-------------|----------|-------------------|------------------|
+|Động cơ Servo         |     5V      |    GND   |SV1, SV2, SV3, SV4 |D27, D14, D13, D12|       
+|L293D                 |     5V      |    GND   |OUT1,OUT2,OUT3,OUT4|D25, D26, D33, D32|      
+|Cảm biến ANALOG       |     5V      |    GND   |     CB1,CB2,A0    |    VP,VN,D34     |         
+|Cảm biến DIGITAL      |     5V      |    GND   | CB3,D0,TRIG,ECHO  |  D15,D35,D4,D2   | 
+|Buzzer                |     5V      |    GND   |         X         |TX0|
+|Button                |     5V      |    GND   |   X   |D21|
+|Encoder               |     5V      |    GND   |   ChA,ChB| D23,D22|
+      
+
 
 ## Các chân tín hiệu của cổng Servo_X
 |Tên cổng   |Nguồn dương|Nguồn âm |Chân tín hiệu Servo |Chân tích hợp 1|Chân tích hợp 2|

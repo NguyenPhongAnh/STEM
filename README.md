@@ -1,29 +1,24 @@
 # STEM
 # Tổng quan
-Git này hướng dẫn sử dụng boar của đề tài "Thiết kế board hỗ trợ giáo dục STEM"
-
-## Kết nối 
-|Type       |Chức năng                                |Ghi chú                    |
-|-----------|-----------------------------------------|-----------                |
-|Domino     |Đầu ra nguồn điện động cơ                |2.54mm 2pin                |
-|jack DC    |Nguồn cung cho board                     |12VDC                      |
-|USB type-C |Cổng nạp code                            |                           |
+Git này hướng dẫn sử dụng board STEM
 
 ## Nguồn điện
 - Đầu vào: 12V DC 
 - Nguồn ra: 
-    + M1, M2: 12V DC
-    + Servor x6: 5V DC
-    + I2C: 5V DC
-    + Dòng Analog : 3.3VDC QTR-5RC    link: https://www.thegioiic.com/qtr-5rc-cam-bien-do-line-khoang-cach-7mm-ngo-ra-ttl
-    + Cảm biến siêu âm: 5VDC HC-SR04  link mua hàng: https://www.thegioiic.com/hc-sr04-cam-bien-sieu-am
+    + M1, M2: 12V
+    + Servor x4: 5V DC
+    + Cảm biến siêu âm:           5VDC  HC-SR04  link mua hàng: https://www.thegioiic.com/hc-sr04-cam-bien-sieu-am
+    + Cảm biến dò line:           5VDC  LM393    link mua hàng: https://nshopvn.com/product/cam-bien-vat-can-hong-ngoai/
+    + Cảm biến báo cháy:          5VDC  LM393    link mua hàng: https://www.thegioiic.com/lm393-mach-cam-bien-hong-ngoai-phat-hien-lua-3-chan
+    + Cảm biến ánh sáng:          5VDC  LM393    link mua hàng: https://www.thegioiic.com/lm393-cam-bien-anh-sang-photodiode
+    + Cảm biến nhiệt độ và độ ẩm: 5V    DHT11    link mua hàng: https://www.thegioiic.com/dht11-mach-cam-bien-nhiet-do-va-do-am-den
 ## Chân tín hiệu điều khiển của thiết bị tích hợp trên board.
 
 |Tên thiết bị          |Nguồn dương  | Nguồn âm |  Chân 1 |  Chân 2 |  Chân 3 |  Chân 4  |  Chân 5 |  Chân 6 |  
 |-----------           |-------------|----------|---------|---------|---------|----------|---------|---------| 
 |Led RGB               |     5V      |    GND   |   D25   |         |         |          |         |         |                      
 |Buzzer                |     5V      |    GND   |   D26   |         |         |          |         |         |         
-|Button                |     5V      |    GND   |   D19   |         |         |          |         |         |                                          
+|Button                |     5V      |    GND   |   D19   |
 |MPU                   |     5V      |    GND   |   SDA   |   SCL   |    D32  |          |         |         |       
 |Cảm biến siêu âm      |     5V      |    GND   |   D25   |   D13   |   D16   |   D17    |         |         |         
 |Cảm biến dò line      |     5V      |    GND   |   D36   |   D39   |   D34   |   D35    |         |         |        

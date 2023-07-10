@@ -13,6 +13,7 @@
 ## Các chân tín hiệu
 
 |Tên thiết bị          |Nguồn dương  | Nguồn âm |  Chân trên Board  |  Chân trên ESP   |
+|--------------------- |-------------|----------|-------------------|------------------|
 |Động cơ Servo         |     5V      |    GND   |SV1, SV2, SV3, SV4 |D27, D14, D13, D12|       
 |L293D                 |     5V      |    GND   |OUT1,OUT2,OUT3,OUT4|D25, D26, D33, D32|      
 |Cảm biến ANALOG       |     5V      |    GND   |     CB1,CB2,A0    |    VP,VN,D34     |         

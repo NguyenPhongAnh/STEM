@@ -18,7 +18,7 @@
 |L293D                 |     5V      |    GND   |OUT1,OUT2,OUT3,OUT4|D25, D26, D33, D32|      
 |Cảm biến ANALOG       |     5V      |    GND   |     CB1,CB2,A0    |    VP,VN,D34     |         
 |Cảm biến DIGITAL      |     5V      |    GND   | CB3,D0,TRIG,ECHO  |  D15,D35,D4,D2   | 
-|Buzzer                |     5V      |    GND   |         X         |       TX0        |
-|Button                |     5V      |    GND   |         X         |       D21        |
+|LED RGB               |     5V      |    GND   |         X         |       TX0        |
+|Buzzer                |     5V      |    GND   |         X         |       D21        |
 |Encoder               |     5V      |    GND   |      ChA,ChB      |     D23,D22      |
       

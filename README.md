@@ -1,6 +1,5 @@
-# STEM
+# Hướng dẫn sử dụng board STEM
 # Tổng quan
-Git này hướng dẫn sử dụng board STEM
 
 ## Nguồn điện
 - Đầu vào: 12V DC 

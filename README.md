@@ -17,6 +17,7 @@
 |Cảm biến ANALOG       |     5V      |    GND   |     CB1,CB2,A0    |    VP,VN,D34     |         
 |Cảm biến DIGITAL      |     5V      |    GND   | CB3,D0,TRIG,ECHO  |  D15,D35,D4,D2   | 
 |LED RGB               |     5V      |    GND   |         X         |       TX0        |
+|Relay                 |     5V      |    GND   |      RL1,RL2      |      D19,D18     |
 |Buzzer                |     5V      |    GND   |         X         |       D21        |
 |Encoder               |     5V      |    GND   |      ChA,ChB      |     D23,D22      |
       

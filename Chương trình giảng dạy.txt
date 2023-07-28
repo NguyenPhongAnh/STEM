@@ -1,0 +1,17 @@
+Chương trình học sẽ được phân bổ từ cơ bản đến nâng cao, nhằm giúp người học có thể hiểu và tận dụng được lượng kiến thức đã học để làm những dự án thực tế lớn hơn như sau:
+Lập trình C trên arduino IDE
+- Bài 1: Giới thiệu về mạch điện tử STEM.
+- Bài 2: Cách cài đặt, nạp chương trình cho ESP và xuất dữ liệu bằng Monitor Serial.
+- Bài 3: Điều khiển buzzer.
+- Bài 4: Điều khiển led RGB và led đơn.
+- Bài 5: Đọc giá trị cảm biến (Analog và Digital).
+- Bài 6: Điều khiển DC.
+- Bài 7: Điều khiển động cơ thuận nghịch, tốc độ động cơ.
+- Bài 8: Điều khiển servo.
+- Bài 9: Tạo ứng dụng điện thoại.
+- Bài 10: Điều khiển thiết bị thông qua Bluetooth.
+- Bài 11: Điều khiển thiết bị thông qua Wifi.
+- Bải 12: Thực hiện dự án tự chọn.
+- Project 1: Lắp ráp và lập trình cho RobotCar.
+- Project 2: Lắp ráp và lập trình cho nhà thông minh.
+- Project 3: Lắp ráp và lập trình cho cánh tay robot 4 bậc.
